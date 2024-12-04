@@ -51,3 +51,34 @@
     <p>Dio<span>.</span>me</p>
 </html>
 ```  
+## Fieldset
+```
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturando HTML + Formatações</title>
+    <style>
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding: 5px;
+        }
+        fieldset {
+            border-radius: 10px;
+            margin: 15px 0;
+            border-color: powderblue;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="">Nome:</label><input type="text"><br>
+        <label for="">Idade:</label><input type="text"><br>
+    </fieldset>
+    <button type="submit">Enviar</button>
+</body>
+</html>
+```
